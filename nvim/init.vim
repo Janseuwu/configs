@@ -27,6 +27,9 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
+" Colorschemes
+Plug 'EdenEast/nightfox.nvim'
+
 call plug#end()
 
 " fuck you
