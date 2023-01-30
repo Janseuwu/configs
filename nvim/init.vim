@@ -1,10 +1,6 @@
 " Line numbers
 set number relativenumber
 
-" Colorscheme
-set termguicolors
-colorscheme catppuccin_mocha
-
 " Syntax highlighting
 syntax on
 
@@ -29,8 +25,14 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 
 " Colorschemes
 Plug 'EdenEast/nightfox.nvim'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
 call plug#end()
 
 " fuck you
 lua require('config')
+
+" Colorscheme
+set termguicolors
+colorscheme catppuccin-frappe

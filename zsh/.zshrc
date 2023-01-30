@@ -110,3 +110,14 @@ source ~/.oh-my-zsh/custom/plugins/aliases/aliases.zsh
 
 export PATH="~/:$PATH"
 export PATH="~/.local/bin/:$PATH"
+
+# bun completions
+[ -s "/home/janseuwu/.bun/_bun" ] && source "/home/janseuwu/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+autoload -Uz compinit
+zstyle ':completion:*' menu select
+fpath+=~/.zfunc
