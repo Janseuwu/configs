@@ -76,6 +76,7 @@ plugins=(
 	# activatevenv # not linus's version (way worse)
 	autovenv-linus # linus's version (way better)
 	zsh-autocomplete
+	command-timer
 )
 
 
