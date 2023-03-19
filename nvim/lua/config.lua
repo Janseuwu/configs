@@ -10,6 +10,7 @@ local function on_attach()
 end
 
 lspconfig.pyright.setup({ on_attach = on_attach })
+lspconfig.clangd.setup({ on_attach = on_attach })
 
 --
 -- Completion
