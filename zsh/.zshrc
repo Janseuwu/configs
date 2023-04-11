@@ -82,6 +82,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 source ~/.oh-my-zsh/custom/plugins/aliases/aliases.zsh
+source ~/Documents/beepboop/shell-scripts/update-discord/update_discord.sh
+source ~/Documents/beepboop/shell-scripts/cpp-template/make_cpp.sh
 
 # User configuration
 

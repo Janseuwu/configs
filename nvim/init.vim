@@ -28,6 +28,12 @@ Plug 'EdenEast/nightfox.nvim'
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
+" some JS stuff i found on google
+Plug 'yuezk/vim-js'
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
+
 call plug#end()
 
 " fuck you
