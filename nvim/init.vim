@@ -27,6 +27,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 Plug 'EdenEast/nightfox.nvim'
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'severij/vadelma'
 
 " some JS stuff i found on google
 Plug 'yuezk/vim-js'
@@ -41,4 +42,4 @@ lua require('config')
 
 " Colorscheme
 set termguicolors
-colorscheme catppuccin-frappe
+colorscheme SerialExperimentsLain 

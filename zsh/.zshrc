@@ -124,3 +124,4 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 autoload -Uz compinit
 zstyle ':completion:*' menu select
 fpath+=~/.zfunc
+source /home/janseuwu/Documents/beepboop/CLI-ChatGPT/env_vars
